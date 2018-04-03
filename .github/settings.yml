@@ -1,6 +1,6 @@
 repository:
   name: website
-  description: Website for Greenlight
+  description: ℹ️ Website for Greenlight
   topics: greenlight, website
   homepage: https://greenlight.ci
   private: false
