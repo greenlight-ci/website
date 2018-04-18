@@ -1,3 +1,9 @@
+language: node_js
+
+node_js: 9
+
+script: skip
+
 deploy:
   provider: firebase
   token: $FIREBASE_TOKEN
