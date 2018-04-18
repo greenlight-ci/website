@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "name": "@greenlight/website",
+  "description": "Greenlight Website",
+  "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)",
+  "homepage": "https://greenlight.ci/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greenlight/website.git"
+  },
+  "license": "ISC",
+  "keywords": [
+    "greenlight",
+    "website"
+  ],
+  "engines": {
+    "node": ">=9"
+  },
+  "bugs": {
+    "url": "https://github.com/greenlight/website/issues"
+  },
+  "scripts": {
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "firebase deploy"
+  },
+  "devDependencies": {
+    "vuepress": "^0.5.0"
+  }
+}
