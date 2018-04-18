@@ -44,10 +44,10 @@ $ greenlight
 Reports are generated in `text`, `html`, and `json` allowing you to further customize by creating your own custom dashboards.
 
 ```plain
-⏺ redlight/demo found 10 issues
-⏺ redlight/dummy found 0 issues
+● redlight/demo found 10 issues
+● redlight/dummy found 0 issues
 
-⏺ redlight/demo issues: 10
+● redlight/demo issues: 10
 
 /src/child.js
 
