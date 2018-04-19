@@ -4,8 +4,33 @@ $textColor = #292f33
 $borderColor = #eaecef
 $codeBgColor = #282c34
 
-
 .home
   .hero
     img
       max-width 100%
+
+.mermaid
+  color: white // this is a hacky way to do this
+
+  .actor
+    fill: $borderColor !important
+    stroke: none !important
+
+  text.actor
+    fill: $textColor !important
+    stroke: none !important
+
+  .actor-line
+    stroke: $textColor !important
+
+  .messageLine0
+    stroke: $accentColor !important
+
+  .messageLine1
+    stroke: $accentColor !important
+
+  .messageText
+    fill: $textColor !important
+
+  #arrowhead
+    fill: $accentColor !important

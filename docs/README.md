@@ -23,7 +23,7 @@ features:
 - title: GitHub App
   details: (coming soon) Remove the guessing work from reviewing Pull Requests, provide a helpful and detailed change requests for contributors.
 
-footer: MIT Licensed | Copyright © 2018-present Ahmad Nassri
+footer: ISC Licensed | Copyright © 2018-present Ahmad Nassri
 ---
 
 ## Easy and fast setup
@@ -31,9 +31,6 @@ footer: MIT Licensed | Copyright © 2018-present Ahmad Nassri
 ```bash
 $ curl -L https://github.com/greenlight/cli/archive/master.tar.gz | tar xvz
 cd greenlight-* && sudo make install
-
-# create a greenlight config with a demo plugin
-printf "version: 1.0.0\n\nplugins:\n  redlight/demo: true\n  redlight/dummy: true" > greenlight.yml
 
 # start running audits
 $ greenlight

@@ -1,28 +1,38 @@
 # Installation
 
-## Universal Binary with Docker Engine
+## Binary
 
-### Requirements
+#### Requirements
 
-- Docker `vX.x`
+- Docker `>= v17.x`
 
-## Node Binary
+```sh
+$ curl -L https://github.com/greenlight/cli/archive/master.tar.gz | tar xvz
+cd greenlight-* && sudo make install
+```
 
-### Requirements
+## NPM Package
 
-- Docker `vX.x`
+#### Requirements
 
-## NPM Package 
+- Docker `>= v17.x`
+- Node.js `>= v9.x`
 
-### Requirements
-
-- Docker `vX.x`
-- Node.js `v9`
+```sh
+npm install --global @greenlight/cli
+```
 
 ## Source
 
-### Requirements
+#### Requirements
 
 - Git
 - Docker `vX.x`
 - Node.js `v9`
+
+```sh
+git clone git@github.com:greenlight/cli.git
+cd cli
+npm install
+npm link
+```
