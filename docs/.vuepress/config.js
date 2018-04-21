@@ -38,7 +38,8 @@ module.exports = {
         children: [
           '',
           'installation',
-          'usage'
+          'usage',
+          'development'
         ]
       }]
     }
