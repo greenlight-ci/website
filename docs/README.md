@@ -41,10 +41,10 @@ $ greenlight
 Reports are generated in `text`, `html`, and `json` allowing you to further customize by creating your own custom dashboards.
 
 ```plain
-● redlight/demo found 10 issues
-● redlight/dummy found 0 issues
+● audits/demo found 10 issues
+● audits/dummy found 0 issues
 
-● redlight/demo issues: 10
+● audits/demo issues: 10
 
 /src/child.js
 
@@ -66,4 +66,4 @@ Reports are generated in `text`, `html`, and `json` allowing you to further cust
 49:42  minor  Unexpected second with a ratlike handicap  dredger
 ```
 
-> _output from `redlight/demo` plugin, which as you can tell, is totally meaningless mumbo jump, checkout some [real plugins](/plugins/) instead_
+> _output from `audits/demo` plugin, which as you can tell, is totally meaningless mumbo jump, checkout some [real plugins](/plugins/) instead_

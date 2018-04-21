@@ -54,7 +54,7 @@ project/
 version: 1.0.0
 
 plugins:
-  redlight/eslint:
+  audits/eslint:
     exclude: node_modules/**
     include:
       - src
@@ -66,9 +66,9 @@ plugins:
 if your `foo.js` contains any broken ESLint rules, then Greenlight will output the following:
 
 ```plain
-⏺ redlight/eslint found 1 issues
+⏺ audits/eslint found 1 issues
 
-⏺ redlight/eslint issues: 1
+⏺ audits/eslint issues: 1
 
 src/foo.js
 
