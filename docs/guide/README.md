@@ -68,9 +68,9 @@ plugins:
 if your `foo.js` contains any broken ESLint rules, then Greenlight will output the following:
 
 ```plain
-⏺ audits/eslint found 1 issues
+● audits/eslint found 1 issues
 
-⏺ audits/eslint issues: 1
+● audits/eslint issues: 1
 
 src/foo.js
 
