@@ -5,22 +5,22 @@ actionText: Get Started →
 actionLink: /guide/
 
 features:
-- title: Language Agnostic
+- title: 🗣 Language Agnostic
   details: Greenlight uses Docker Engine under the hood to allow for scalable operations and language agnostic plugins.
 
-- title: Plugin Powered
+- title: 🔧 Plugin Powered
   details: Choose your own auditing adventure by using official and community created plugins, as well as your own custom private plugins.
 
-- title: Performant
+- title: ⚡ Performant
   details: Use your own scalable infrastructure configuration locally or in the cloud, with tools such as Docker Swarm to run audits in parallel.
 
-- title: Runs Anywhere
+- title: 🌩️ Runs Anywhere
   details: Run locally as part of your TDD, throw into Git hooks to prevent mistakes, or run as part of your CI/CD platform for ultimate gating of team mistakes.
 
-- title: Cloud Reports
+- title: 🚧 Cloud Reports
   details: (coming soon) Track issues over time and share with your team through a simple and easy to use Dashboard.
 
-- title: GitHub App
+- title: 🚧 GitHub App
   details: (coming soon) Remove the guessing work from reviewing Pull Requests, provide a helpful and detailed change requests for contributors.
 
 footer: ISC Licensed | Copyright © 2018-present Ahmad Nassri
