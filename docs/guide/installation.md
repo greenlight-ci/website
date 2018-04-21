@@ -1,38 +1,81 @@
 # Installation
 
-## Binary
+[[toc]]
+
+## Docker
+
+::: tip Reccomended
+This is the reccomended and most tested method
+:::
+
+Uses a Docker [wrapper script][wrapper] to execute [`@greenlight/cli`][cli] inside a Docker container 
 
 #### Requirements
 
-- Docker `>= v17.x`
+name   | min version
+------ | -----------
+Docker | `1.13`     
 
 ```sh
-$ curl -L https://github.com/greenlight/cli/archive/master.tar.gz | tar xvz
-cd greenlight-* && sudo make install
+$ curl -L https://github.com/greenlight/installer/archive/master.tar.gz | tar xvz
+cd installer-master && sudo make install
+```
+
+## Binary
+
+::: warning
+This method is not thoroughtly tested
+:::
+
+Download and install a pre-compiled Node.js binary of [`@greenlight/cli`][cli] using [nexe][].
+
+#### Requirements
+
+name   | min version
+------ | -----------
+Docker | `1.13`     
+
+```sh
+$ curl -L https://github.com/greenlight/installer/archive/master.tar.gz | tar xvz
+cd installer-master && sudo make binary
 ```
 
 ## NPM Package
 
 #### Requirements
 
-- Docker `>= v17.x`
-- Node.js `>= v9.x`
+name    | min version
+------- | -----------
+Docker  | `1.13`     
+Node.js | `9.x`      
 
 ```sh
-npm install --global @greenlight/cli
+npm install --prod --global @greenlight/cli
 ```
 
 ## Source
 
 #### Requirements
 
-- Git
-- Docker `vX.x`
-- Node.js `v9`
+name    | min version
+------- | -----------
+Git     | `*`        
+Docker  | `1.13`     
+Node.js | `9.x`      
 
 ```sh
-git clone git@github.com:greenlight/cli.git
-cd cli
-npm install
-npm link
+# clone 
+git clone git@github.com:greenlight/cli.git && cd cli
+
+# install dependencies
+npm install --prod
+
+# creates `greenlight` alias
+npm link 
 ```
+
+[wrapper]: https://github.com/greenlight/installer/blob/master/wrapper
+
+[cli]: https://www.npmjs.com/package/@greenlight/cli
+
+[nexe]: https://github.com/nexe/nexe

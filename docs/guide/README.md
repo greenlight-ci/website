@@ -14,6 +14,8 @@ Each plugin is a Docker image that expects a pre-defined execution pattern, and 
 
 Greenlight and Plugins are configured through a `greenlight.yml` file in your project's root.
 
+![](/diagram.svg)
+
 <div class="mermaid">
 sequenceDiagram
   participant IF as Interface
