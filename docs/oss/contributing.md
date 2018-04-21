@@ -10,7 +10,7 @@ Before submitting your contribution, please make sure to take a moment and read 
 
 ## Code of Conduct
 
-This project is governed by the [Contributor Covenant version 1.4](/oss/conduct). All contributors and participants agree to abide by its terms. To report violations, send an email to ahmad@ahmadnassri.com.
+This project is governed by the [Contributor Covenant version 1.4](/oss/conduct.html). All contributors and participants agree to abide by its terms. To report violations, send an email to ahmad@ahmadnassri.com.
 
 ## Issue Reporting Guidelines
 
@@ -31,7 +31,7 @@ You will need [Node.js](http://nodejs.org), we typically target **ALL [LTS][lts]
 
 ### Committing Changes
 
-Commit messages should follow the [commit message convention](/oss/commits) so that changelogs can be automatically generated. Commit messages will be automatically validated upon commit.
+Commit messages should follow the [commit message convention](/oss/commits.html) so that changelogs can be automatically generated. Commit messages will be automatically validated upon commit.
 
 ### NPM scripts
 

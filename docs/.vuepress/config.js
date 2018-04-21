@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Greenlight',
-  description: 'Extendable Auditing for your projects',
+  description: 'Modern Auditing Platform',
 
   dest: 'public',
   head: [
@@ -29,17 +29,40 @@ module.exports = {
       {
         text: 'Plugins',
         link: '/plugins/'
+      },
+      {
+        text: 'Contribute',
+        link: '/oss/'
       }
     ],
     sidebar: {
-      '/guide/': [{
+      '/': [{
         title: 'Guide',
         collapsable: false,
         children: [
-          '',
-          'installation',
-          'usage',
-          'development'
+          '/guide/',
+          '/guide/installation',
+          '/guide/usage'
+        ]
+      },
+      {
+        title: 'Plugins',
+        collapsable: false,
+        children: [
+          '/plugins/',
+          '/plugins/community',
+          '/plugins/custom'
+        ]
+      },
+      {
+        title: 'Open Source',
+        collapsable: false,
+        children: [
+          '/oss/',
+          '/oss/license',
+          '/oss/conduct',
+          '/oss/contributing',
+          '/oss/commits'
         ]
       }]
     }

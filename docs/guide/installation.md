@@ -16,8 +16,8 @@ name   | min version
 ------ | -----------
 Docker | `1.13`     
 
-```sh
-$ curl -L https://github.com/greenlight/installer/archive/master.tar.gz | tar xvz
+```bash
+curl -L https://github.com/greenlight/installer/archive/master.tar.gz | tar xvz
 cd installer-master && sudo make install
 ```
 
@@ -36,7 +36,7 @@ name   | min version
 Docker | `1.13`     
 
 ```bash
-$ curl -L https://github.com/greenlight/installer/archive/master.tar.gz | tar xvz
+curl -L https://github.com/greenlight/installer/archive/master.tar.gz | tar xvz
 cd installer-master && sudo make binary
 ```
 
@@ -73,6 +73,14 @@ npm install --prod
 # creates `greenlight` alias
 npm link 
 ```
+
+## Uninstall
+
+```bash
+curl -L https://github.com/greenlight/installer/archive/master.tar.gz | tar xvz
+cd installer-master && sudo make uninstall
+```
+
 
 [wrapper]: https://github.com/greenlight/installer/blob/master/wrapper
 

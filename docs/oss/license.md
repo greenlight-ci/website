@@ -1,3 +1,5 @@
+# License
+
 Copyright (c) 2018, Ahmad Nassri <ahmad@ahmadnassri.com>
 
 Permission to use, copy, modify, and/or distribute this software for any
