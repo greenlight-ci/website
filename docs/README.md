@@ -48,7 +48,9 @@ export default {
     const demo = document.querySelector('#demo')
     let script = document.createElement('script')
     script.async = true
-    script.dataset.size = 'medium'
+    script.dataset.size = 'small'
+    script.dataset.cols = 150
+    script.dataset.rows = 28
     script.id = "asciicast-Zy8rKRIfWqzbDiCZGLD86YIsW"
     script.src = 'https://asciinema.org/a/Zy8rKRIfWqzbDiCZGLD86YIsW.js'
     demo.appendChild(script)
