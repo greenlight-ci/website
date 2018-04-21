@@ -35,7 +35,7 @@ name   | min version
 ------ | -----------
 Docker | `1.13`     
 
-```sh
+```bash
 $ curl -L https://github.com/greenlight/installer/archive/master.tar.gz | tar xvz
 cd installer-master && sudo make binary
 ```
@@ -49,7 +49,7 @@ name    | min version
 Docker  | `1.13`     
 Node.js | `9.x`      
 
-```sh
+```bash
 npm install --prod --global @greenlight/cli
 ```
 
@@ -63,7 +63,7 @@ Git     | `*`
 Docker  | `1.13`     
 Node.js | `9.x`      
 
-```sh
+```bash
 # clone 
 git clone git@github.com:greenlight/cli.git && cd cli
 
