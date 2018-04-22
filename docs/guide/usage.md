@@ -37,6 +37,24 @@ JSON               | YAML
 `.greenlightrc`    | `.greenlight.yml` 
 `greenlightrc`     | `.greenlight.yaml`
 
+## Format
+
+The [Greenlight Config Spec](https://github.com/greenlight/schema-config/) describe the schema and format of the configuration file.
+
+#### Example
+
+```yaml
+version: 1.1.0
+
+plugins:
+  audits/eslint:
+    enabled: true
+    settings:
+      foo: "bar"
+
+  audits/demo: true
+```
+
 ## Local Usage
 
 Whether you're into _TDD_, _BDD_, _DDD_, or _(insert your "X-Driven-Development" methodology here)_.
