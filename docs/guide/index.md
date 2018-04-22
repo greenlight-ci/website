@@ -98,3 +98,27 @@ src/foo.js
 
 1:7  major  'my-var' is assigned a value but never used.  no-unused-vars
 ```
+
+## Why Not ...?
+
+### CodeClimate
+
+[CodeClimate](https://codeclimate.com/) is actually one of the main insperation sources for Greenlight, ever since they [Open Sourced](https://codeclimate.com/blog/code-climate-platform/) their platform has been inspiring me with more ideas of what can be done with this model they initiatied. However, it seems the open source platform promise did not live up to the PR hype, and it seems the company is more interested in new initatives than evolving and supporting the platform. The main limitation there is that all "engines" _(equivilant to Greenlight plugins)_ have to be hand-approved by company representatives before they can be used, furthermore, aside from the CLI Engine, nothing else is actually open source, including their server technology and dashboards.
+
+Greenlight in contrast is **100% open source**, Client, Server, Dashboards and Plugins. **Forever.**
+
+### Danger JS
+
+[Danger](https://danger.systems/) is yet another source of inspiration for Greenlight, the deep integration into CI/CD pipeline, tight integration with Github, and easily customizable rules is a thing of beauty. 
+
+Danger has a highly opinionated DSL needed for writing rules, It is also [_mostly_](https://danger.systems/js/usage/danger-process.html) JavaScript oriented. More importantly, Danger seems to be mainly focused on being triggered during an application change state, Greenlight in contrast, is not opinionated on state / lifecylce, and can be triggered before, during, or after a commit, PR, etc ...
+
+Greenlight is also langauge agnostic, and does not enforce any DSL, and thanks to Docker it is able to execute plugins across different languages in parallel, so long as they produce [spec compliant](/plugins/custom.html) ouput through the container `stdout`.
+
+I would also point out Danger's excellent call-out to the [Cultural Impact](http://danger.systems/js/usage/culture.html) and how to address it with your team! 👌
+
+### Codebeat / Codacy / Side CI / etc ...
+
+Many "Code Quality" Services are nothing but wrappers around open source libraries, (which is totally fine) and they provide added value by creating dashboards and tracking trends with your team, Here again, Greenlight takes inspiration and provides a scalable alternative that is 100% open source and free.
+
+Greenlight goes above and beyond by allowing you to create your own [custom audits](/plugins/custom.html) as well as providing the concept of [Extensions](/extensions/) which allows you to expand beyond simple code scanning, and infinitly extend the scope of Greenlight.
