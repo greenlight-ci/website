@@ -16,7 +16,7 @@ module.exports = {
     // ['script', { src: 'https://unpkg.com/mermaid/dist/mermaid.min.js' }],
   ],
 
-  serviceWorker: true,
+  serviceWorker: false,
   themeConfig: {
     repo: 'greenlight/website',
     editLinks: true,
