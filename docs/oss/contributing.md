@@ -39,6 +39,6 @@ There are a few scripts available in the `scripts` section of the `package.json`
 
 The default `test` script will do the following: 
 
-* runs `tap test` with enforcement of 100% coverage
+- runs `tap test` with enforcement of 100% coverage
 
 [lts]: https://github.com/nodejs/Release

@@ -1,7 +1,5 @@
 # Installation
 
-[[toc]]
-
 ## Docker
 
 ::: tip Reccomended
@@ -14,7 +12,7 @@ Uses a Docker [wrapper script][wrapper] to execute [`@greenlight/cli`][cli] insi
 
 name   | min version
 ------ | -----------
-Docker | `1.13`     
+Docker | `1.12`     
 
 ```bash
 curl -L https://github.com/greenlight/installer/archive/master.tar.gz | tar xvz
@@ -33,7 +31,7 @@ Download and install a pre-compiled Node.js binary of [`@greenlight/cli`][cli] u
 
 name   | min version
 ------ | -----------
-Docker | `1.13`     
+Docker | `1.12`     
 
 ```bash
 curl -L https://github.com/greenlight/installer/archive/master.tar.gz | tar xvz
@@ -46,7 +44,7 @@ cd installer-master && sudo make binary
 
 name    | min version
 ------- | -----------
-Docker  | `1.13`     
+Docker  | `1.12`     
 Node.js | `9.x`      
 
 ```bash
@@ -60,7 +58,7 @@ npm install --prod --global @greenlight/cli
 name    | min version
 ------- | -----------
 Git     | `*`        
-Docker  | `1.13`     
+Docker  | `1.12`     
 Node.js | `9.x`      
 
 ```bash
@@ -80,7 +78,6 @@ npm link
 curl -L https://github.com/greenlight/installer/archive/master.tar.gz | tar xvz
 cd installer-master && sudo make uninstall
 ```
-
 
 [wrapper]: https://github.com/greenlight/installer/blob/master/wrapper
 

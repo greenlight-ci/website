@@ -4,7 +4,29 @@ Maintaining quality is hard, maintaining quality across a matrix of projects, te
 
 We have many tools and libraries at our disposal that can be used to keep our fingers on the pulse of a project's technical health, from inception to sunset. However these tools do not share any commonality in either format nor operation.
 
-This is the purpose of Greenlight, to act as The Modern Platform for Auditing, weaving a common operating model and data format between existing tool, and be the framework for building new auditing & quality checks with minimal effort.
+## What is Greenlight
+
+The purpose of Greenlight, is to act as The Modern Platform for Auditing, weaving a common operating model and data format between any existing tool, and be the framework for building new auditing & quality checks with minimal effort.
+
+## Features
+
+- **Language Agnostic**  
+  Greenlight uses Docker Engine under the hood to allow for scalable operations and language agnostic plugin creation.
+
+- **Plugin Powered**  
+  Choose your own adventure by using [official](/plugins/) and [community plugins](/plugins/community.html), as well as your own [custom private plugins](/plugins/custom.html).
+
+- **High Performance**  
+  Scales to support large teams and projects on your own infrastructure or in the cloud, leveraging Docker Swarm to run and scale audits in parallel.
+
+- **Runs Anywhere**  
+  Run locally as part of your TDD, throw into Git hooks to catch mistakes before you commit, or run as part of your CI/CD pipeline for ultimate gating of team mistakes.
+
+- **Centralized Reports**  
+  _(coming soon)_ Track issues and trends over time and share with your team through a simple and easy to use Dashboard.
+
+- **GitHub App**  
+  _(coming soon)_ Remove the guessing work from reviewing Pull Requests, provide a helpful and detailed change requests for contributors.
 
 ## How it Works
 

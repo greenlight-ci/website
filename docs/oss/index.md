@@ -17,12 +17,12 @@ Start by familiarizing yourself with the following key repositories:
 name                                                           | description           
 -------------------------------------------------------------- | ----------------------
 [`website`](https://github.com/greenlight/website)             | Home to Website & Docs
-[`cli`](https://github.com/greenlight/cli)                     | CLI application
-[`docker`](https://github.com/greenlight/docker)               | Docker Interface   
-[`installer`](https://github.com/greenlight/installer)         | Install Scripts
-[`schema-config`](https://github.com/greenlight/schema-config) | Configuration Spec
-[`schema-plugin`](https://github.com/greenlight/schema-plugin) | Plugin Spec       
-[`schema-report`](https://github.com/greenlight/schema-report) | Report Spec       
+[`cli`](https://github.com/greenlight/cli)                     | CLI application       
+[`docker`](https://github.com/greenlight/docker)               | Docker Interface      
+[`installer`](https://github.com/greenlight/installer)         | Install Scripts       
+[`schema-config`](https://github.com/greenlight/schema-config) | Configuration Spec    
+[`schema-plugin`](https://github.com/greenlight/schema-plugin) | Plugin Spec           
+[`schema-report`](https://github.com/greenlight/schema-report) | Report Spec           
 
 ## Plugin Development
 
